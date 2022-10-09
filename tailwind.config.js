@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'athens-gray': '#F8F9FB',
+        'porcelain': '#F6F7F8',
+        'gallery': '#EDEDED',
+      },
+      flex: {
+        '1.6': '1.6',
+        '3': '3',
+      },
+    },
   },
   plugins: [],
 }

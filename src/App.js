@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import ContactListComponent from "./components/ContactListComponent";
+import ConversationComponent from "./components/ConversationComponent";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="flex flex-row h-screen w-full bg-athens-gray">
+      <ContactListComponent />
+      <ConversationComponent />
     </div>
   );
 }
